@@ -6,6 +6,7 @@ import com.itsmeijers.MessageTranslator.MessageTranslatorApp
 import com.itsmeijers.PublishSubscribeChannel.LocalEventStream.SubClassificationDriver
 import com.itsmeijers.InvalidMessageChannel.InvalidMessageChannelApp
 import com.itsmeijers.MessageBus.MessageBusApp
+import com.itsmeijers.RequestReply.RequestReplyApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -17,4 +18,6 @@ import com.itsmeijers.MessageBus.MessageBusApp
 
 //object Main extends InvalidMessageChannelApp
 
-object Main extends MessageBusApp
+//object Main extends MessageBusApp
+
+object Main extends RequestReplyApp

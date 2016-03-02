@@ -7,6 +7,7 @@ import com.itsmeijers.PublishSubscribeChannel.LocalEventStream.SubClassification
 import com.itsmeijers.InvalidMessageChannel.InvalidMessageChannelApp
 import com.itsmeijers.MessageBus.MessageBusApp
 import com.itsmeijers.RequestReply.RequestReplyApp
+import com.itsmeijers.ReturnAddress.ReturnAddressApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -20,4 +21,6 @@ import com.itsmeijers.RequestReply.RequestReplyApp
 
 //object Main extends MessageBusApp
 
-object Main extends RequestReplyApp
+//object Main extends RequestReplyApp
+
+object Main extends ReturnAddressApp

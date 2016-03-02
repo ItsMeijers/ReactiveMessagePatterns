@@ -1,4 +1,4 @@
-activator-akka-scala-seed
+Excercises I made for the book: Reactive Message Patterns with the Actor Model
 =========================
 
-A minimal seed template for an Akka with Scala build 
+Not really sure if I like the book (yet). A review will follow soon.

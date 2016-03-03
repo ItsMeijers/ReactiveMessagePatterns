@@ -9,6 +9,7 @@ import com.itsmeijers.MessageBus.MessageBusApp
 import com.itsmeijers.RequestReply.RequestReplyApp
 import com.itsmeijers.ReturnAddress.ReturnAddressApp
 import com.itsmeijers.MessageExperation.MessageExperationApp
+import com.itsmeijers.ContentBasedRouter.ContentBasedRouterApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -26,4 +27,6 @@ import com.itsmeijers.MessageExperation.MessageExperationApp
 
 //object Main extends ReturnAddressApp
 
-object Main extends MessageExperationApp
+//object Main extends MessageExperationApp
+
+object Main extends ContentBasedRouterApp

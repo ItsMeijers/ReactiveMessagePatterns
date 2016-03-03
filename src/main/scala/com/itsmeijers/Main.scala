@@ -10,6 +10,7 @@ import com.itsmeijers.RequestReply.RequestReplyApp
 import com.itsmeijers.ReturnAddress.ReturnAddressApp
 import com.itsmeijers.MessageExperation.MessageExperationApp
 import com.itsmeijers.ContentBasedRouter.ContentBasedRouterApp
+import com.itsmeijers.DynamicRouter.DynamicRouterApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -29,4 +30,6 @@ import com.itsmeijers.ContentBasedRouter.ContentBasedRouterApp
 
 //object Main extends MessageExperationApp
 
-object Main extends ContentBasedRouterApp
+//object Main extends ContentBasedRouterApp
+
+object Main extends DynamicRouterApp

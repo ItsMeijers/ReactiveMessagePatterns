@@ -11,6 +11,7 @@ import com.itsmeijers.ReturnAddress.ReturnAddressApp
 import com.itsmeijers.MessageExperation.MessageExperationApp
 import com.itsmeijers.ContentBasedRouter.ContentBasedRouterApp
 import com.itsmeijers.DynamicRouter.DynamicRouterApp
+import com.itsmeijers.RecipientList.RecipientListApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -32,4 +33,6 @@ import com.itsmeijers.DynamicRouter.DynamicRouterApp
 
 //object Main extends ContentBasedRouterApp
 
-object Main extends DynamicRouterApp
+//object Main extends DynamicRouterApp
+
+object Main extends RecipientListApp

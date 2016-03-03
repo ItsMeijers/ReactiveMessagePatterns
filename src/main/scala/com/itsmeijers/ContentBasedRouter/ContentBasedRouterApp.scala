@@ -84,7 +84,7 @@ class InventorySystemA(val driver: CompletableApp) extends Actor {
 class InventorySystemX(val driver: CompletableApp) extends Actor {
    def receive = {
       case OrderPlaced(order) =>
-         println(s"InventorySystemA: handling $order")
+         println(s"InventorySystemX: handling $order")
          driver.completedStep()
       case m =>
          println("InventorySystemX: unexpected message")

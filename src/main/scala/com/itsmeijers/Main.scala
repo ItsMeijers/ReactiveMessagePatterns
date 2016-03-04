@@ -13,6 +13,7 @@ import com.itsmeijers.ContentBasedRouter.ContentBasedRouterApp
 import com.itsmeijers.DynamicRouter.DynamicRouterApp
 import com.itsmeijers.RecipientList.RecipientListApp
 import com.itsmeijers.Splitter.SplitterApp
+import com.itsmeijers.Aggregator.AggregatorApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -38,4 +39,6 @@ import com.itsmeijers.Splitter.SplitterApp
 
 //object Main extends RecipientListApp
 
-object Main extends SplitterApp
+//object Main extends SplitterApp
+
+object Main extends AggregatorApp

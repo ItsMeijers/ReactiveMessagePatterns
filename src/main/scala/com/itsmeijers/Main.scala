@@ -14,6 +14,7 @@ import com.itsmeijers.DynamicRouter.DynamicRouterApp
 import com.itsmeijers.RecipientList.RecipientListApp
 import com.itsmeijers.Splitter.SplitterApp
 import com.itsmeijers.Aggregator.AggregatorApp
+import com.itsmeijers.Resequencer.ResequencerApp
 
 // For testing actor implementations see each App trait in the different packages
 
@@ -41,4 +42,6 @@ import com.itsmeijers.Aggregator.AggregatorApp
 
 //object Main extends SplitterApp
 
-object Main extends AggregatorApp
+//object Main extends AggregatorApp
+
+object Main extends ResequencerApp
